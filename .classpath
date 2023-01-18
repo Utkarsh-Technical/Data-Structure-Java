@@ -6,5 +6,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="Stacks"/>
+	<classpathentry kind="src" path="Hashing"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
