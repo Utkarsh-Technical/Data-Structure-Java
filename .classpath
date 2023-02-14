@@ -8,5 +8,7 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="Stacks"/>
 	<classpathentry kind="src" path="Hashing"/>
+	<classpathentry kind="src" path="BST"/>
+	<classpathentry kind="src" path="slidingWindow"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
