@@ -1,4 +1,4 @@
-package fundamentalProblems;
+package stacks.problems;
 
 public class StockSpain {
 

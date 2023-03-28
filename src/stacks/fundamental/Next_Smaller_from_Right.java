@@ -1,16 +1,16 @@
-package fundamentalProblems;
+package stacks.fundamental;
 
 import java.util.Scanner;
 import java.util.Stack;
 
-public class Next_Smaller_from_Left {
+public class Next_Smaller_from_Right {
 
 	public static int[] nextSmallerLeft(int arr[]) {
 		int len = arr.length;
 		int ngl[] = new int[len];
 		Stack<Integer> st = new Stack<Integer>();
 		
-		for(int i=0; i<len; i++) {
+		for(int i=len-1; i>=0; i--) {
 			int x = arr[i];
 			if(st.empty()) {
 				ngl[i] = -1;
@@ -38,14 +38,14 @@ public class Next_Smaller_from_Left {
 	
 	
 	// Print all the Array
-		public static void printArr(int arr[]) {
-			System.out.println("=========================");
-			for(int i=0; i<arr.length; i++) {
-				System.out.print(arr[i]+" ");
-			}
+	public static void printArr(int arr[]) {
+		System.out.println("=========================");
+		for(int i=0; i<arr.length; i++) {
+			System.out.print(arr[i]+" ");
 		}
+	}
 		
-		
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
@@ -62,5 +62,4 @@ public class Next_Smaller_from_Left {
 		arr = nextSmallerLeft(arr);
 		printArr(arr);
 	}
-
 }
