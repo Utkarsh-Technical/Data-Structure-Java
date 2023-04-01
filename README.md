@@ -1,6 +1,6 @@
 # Data Structures in Java
 
-Data Structures in JavaThis repository contains implementations of various data structures in Java. The goal of this repository is to provide a 
+This repository contains implementations of various data structures in Java. The goal of this repository is to provide a 
 comprehensive collection of data structures that can be used as a reference for Java developers.
 
 ##  Getting Started
