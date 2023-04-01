@@ -1,4 +1,4 @@
-package fundamentalQuestions;
+package hashing.fundamental;
 
 public class maxFrequency {
 

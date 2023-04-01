@@ -13,17 +13,17 @@ public class queue_CircularArray {
 			this.size =size; 
 		}
 		
-		// Queue is empty
+		// Queue is empty ---> O(1)
 		public static boolean isEmpty() {
 			return (front==-1 && rear==-1);
 		}
 		
-		// Queue is Full
+		// Queue is Full ---> O(1)
 		public static boolean isFull() {
 			return ((rear+1)%size)==front;
 		}
 		
-		// Enqueue : Add element into queue.
+		// Enqueue : Add element into queue. ---> O(1)
 		public static void add(int n) {
 			if(isFull()) {
 				System.out.println("Queue is Full.");
@@ -40,7 +40,7 @@ public class queue_CircularArray {
 			
 		}
 		
-		// Dequeue : Remove element into queue
+		// Dequeue : Remove element into queue. ---> O(1)
 		public static int remove() {
 			if(isEmpty()) {
 				System.out.println("Queue is empty.");
